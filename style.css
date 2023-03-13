@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style-type: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#banner{
+    background: url(../images/banner/banner3.png) center no-repeat;
+    background-size: cover;
+    padding: 216px 0 166px 0;
+}
+.banner__content {
+    width: 45%;
+    text-align: end;
+    margin-left: auto;
+}
+.banner__title{
+    font-size: 65px;
+    color: white;
+    font-weight: 700;
+    line-height: 76px;
+}
+.banner__paragraph{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin: 24px 0 32px 0;
+    max-width: 494px;
+}
+.banner__btn a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: cyan;
+    padding: 20px 25px;
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+#previous{
+    padding: 130px 0;
+}
+.previous__wrapper{
+    display: flex;
+    align-items: center;
+}
+.previous__img{
+    width: 50%;
+}
+.previous__img img{
+    width: 100%;
+}
+.previous__content{
+    width: 50%;
+    padding-left: 50px;
+}
+.previous__title{
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    max-width: 288px;
+}
+.previous__paragrap{
+    font-size: 16px;
+    line-height: 26px;
+    color: gray;
+    margin: 24px 0 16px 0;
+    max-width: 416px;
+}
+.previous__content ul li{
+    font-size: 16px;
+    line-height: 26px;
+    color: grey;
+    margin-bottom: 8px;
+}
+.previous__content ul i{
+    color: cyan;
+    margin-right: 10px;
+}
+
+#plan{
+    padding-bottom: 135px;
+}
+.plan__wrapper{
+    display: flex;
+}
+.plan__content__items{
+    width: 25%;
+}
+.plan__title h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: black;
+    margin: 0 auto;
+    padding-bottom: 55px;
+    display: flex;
+    justify-content: center;
+}
+.plan__content__items {
+    text-align: center;
+    margin-right: 20px;
+}
+.plan__content__items:last-child{
+    margin-right: 0;
+}
+.plan__content__items h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: black;
+    margin-bottom: 16px;
+}
+.plan__content__items span{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: gray;
+}
+#mindset{
+    margin-bottom: 130px;
+}
+.mindset__bg{
+    background: url(../images/watch.png) center no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+.mindset__bg::after {
+    content: '';
+    position: absolute;
+    background: url(../images/gradient2.png);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.mindset__content{
+    position: absolute;
+    z-index: 999;
+    top: 60px;
+    left: 64px;
+}
+.mindset__content h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+    width: 459px;
+    padding-bottom: 24px;
+}
+.mindset__btn a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: orangered;
+    background: #ffff;
+    padding: 20px 36px;
+    display: inline-block;
+    border-radius: 5px;
+}
+#footer{
+    padding: 130px;
+    background: black;
+}
+.footer__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__content{
+    width: 45%;
+}
+.footer__content h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: white;
+}
+.footer__content p{  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    padding: 16px 0 24px 0;
+}
+.footer__content h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    padding-bottom: 16px;
+}
+.social__icon {
+    padding-top: 16px;
+}
+.social__icon img{
+    padding-right: 17px;
+}
+.footer__subscribe h2{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: white;
+}
+.footer__subscribe input{
+    background: transparent;
+    padding: 21px;
+    width: 325px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: 30px 0 16px 0;
+    color: white;
+    font-size: 18px;
+}
+.footer__subscribe input::placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+.subscribe__btn a{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: orangered;
+    background: white;
+    padding: 20px 36px;
+    border-radius: 8px;
+    display: inline-block;
+}
